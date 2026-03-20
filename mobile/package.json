@@ -1,0 +1,16 @@
+{
+  "name": "gstack-mobile",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun build --compile src/cli.ts --outfile dist/mobile && git rev-parse HEAD > dist/.version",
+    "dev": "bun run src/cli.ts",
+    "server": "bun run src/server.ts",
+    "test": "bun test test/ --ignore test/commands.test.ts --ignore test/flutter-manager.test.ts",
+    "test:unit": "bun test test/ --ignore test/commands.test.ts --ignore test/flutter-manager.test.ts",
+    "test:integration": "bun test test/commands.test.ts test/flutter-manager.test.ts"
+  },
+  "dependencies": {
+    "diff": "^7.0.0"
+  }
+}
