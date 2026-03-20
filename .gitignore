@@ -3,6 +3,7 @@ node_modules/
 browse/dist/
 design/dist/
 bin/gstack-global-discover
+mobile/dist/
 .gstack/
 .claude/skills/
 .agents/
