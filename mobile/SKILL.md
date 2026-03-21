@@ -2,6 +2,8 @@
 name: gstack-mobile
 description: Flutter mobile app automation for Claude — inspect widgets, tap, fill, screenshot, hot reload
 ---
+<!-- AUTO-GENERATED from SKILL.md.tmpl — do not edit directly -->
+<!-- Regenerate: bun run gen:skill-docs -->
 
 # /mobile — Flutter App Automation
 
